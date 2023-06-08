@@ -20,6 +20,9 @@ p {
   padding: 0px;
 }
 
+img {
+  display: block;
+}
 .list {
   list-style-type: none;
   margin: 0px;
@@ -31,8 +34,9 @@ p {
 }
 .container {
   width: 1158px;
-  padding-left: 156px;
-  padding-right: 156px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 /* header styling */
 .index-header {
@@ -42,19 +46,21 @@ p {
   padding-bottom: 24px;
 }
 .logo {
-  display: flex;
   margin-right: 76px;
 }
 .index-nav {
+  display: flex;
+  align-items: center;
 }
 .nav-menu,
 .adresse {
   display: flex;
-  column-gap: 40px;
+  gap: 40px;
 }
 
 .addresse {
-  margin-left: 332px;
+  display: flex;
+  gap: 40px;
 }
 
 nav {
@@ -80,6 +86,7 @@ nav {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--accent-color);
+  padding: 24px 0;
 }
 
 .nav-list-item:hover,
@@ -148,7 +155,6 @@ nav {
   color: var(--accent-color);
 }
 .values-text {
-  font-family: "Roboto";
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
