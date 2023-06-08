@@ -57,8 +57,6 @@ img {
 }
 .index-header {
   display: flex;
-  padding-top: 24px;
-  padding-bottom: 24px;
   align-items: center;
 }
 .logo {
@@ -68,6 +66,9 @@ img {
   display: flex;
   align-items: center;
   flex-grow: 1;
+}
+.nav-menu-list {
+  padding: 24px 0;
 }
 .nav-menu,
 .adresse {
