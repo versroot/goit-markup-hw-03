@@ -31,6 +31,7 @@ img {
 
 .link {
   text-decoration: none;
+  display: block;
 }
 .container {
   width: 1158px;
@@ -66,9 +67,6 @@ img {
   display: flex;
   align-items: center;
   flex-grow: 1;
-}
-.nav-menu {
-  padding: 24px 0;
 }
 .nav-menu,
 .adresse {
@@ -120,6 +118,7 @@ nav {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--main-text-color);
+  padding: 24px 0;
 }
 
 .addr {
